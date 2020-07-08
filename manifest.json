@@ -1,0 +1,15 @@
+  {
+    "name": "Roll20 avatars remover",
+    "version": "1.0",
+    "description": "Removes those huge avatar squares on Roll20",
+    "content_scripts": [
+    {
+     "matches": ["https://app.roll20.net/*"],
+     "js": ["remove_roll20_avatars.js"]
+    }
+    ],
+    "manifest_version": 2,
+    "icons": { "16": "images/icon16.png",
+               "48": "images/icon48.png"
+             }
+  }
